@@ -1,0 +1,2 @@
+# Installers are attached to GitHub releases, never committed (GitHub refuses files over 100 MB).
+*.exe

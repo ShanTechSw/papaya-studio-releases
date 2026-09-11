@@ -1,0 +1,222 @@
+PAPAYA STUDIO - SOFTWARE LICENSE AGREEMENT
+
+By clicking on the "I Accept" button below, or by installing, copying or
+otherwise using the Licensed Software (as defined hereafter), you (referred
+to herein as "You" or "Licensee") acknowledge that You have read this
+Software License Agreement (this "Agreement"), that You understand it, and
+that You agree to be bound by its terms. If You do not agree to the terms of
+this Agreement, do not click on the "I Accept" button, do not install, copy
+or use the Licensed Software.
+
+
+1. DEFINITIONS
+
+1.1 "Licensor" means SHANON TECHNOLOGIES SAS, a societe par actions
+    simplifiee organized and existing under the laws of France.
+
+1.2 "Licensed Software" means the software product known as "Papaya Studio"
+    in object code (binary executable) form, together with any associated
+    media, printed materials, online or electronic documentation, sample
+    block libraries, code-generation templates, native pybind11 modules,
+    bundled drivers, firmware update payloads, and any updates, upgrades,
+    bug-fixes or modifications thereof made available by Licensor pursuant
+    to this Agreement.
+
+1.3 "Hardware" means the Papaya control board and any companion boards
+    designed and manufactured by or on behalf of Licensor.
+
+1.4 "Third-Party Software" means open-source or commercially-licensed
+    software components incorporated into or distributed with the Licensed
+    Software which are owned by parties other than Licensor and which are
+    governed by their own license terms.
+
+
+2. LICENSE GRANT
+
+Subject to Your continuous compliance with the terms of this Agreement,
+Licensor hereby grants You a non-exclusive, non-transferable, royalty-free,
+worldwide, revocable, limited license, without the right to sublicense, to:
+
+(a) install and use the Licensed Software, in object code form only, on
+    computers under Your control, solely in connection with the development,
+    testing, deployment and operation of designs targeting the Hardware;
+
+(b) make a reasonable number of back-up copies of the Licensed Software
+    solely for archival purposes, provided that all such copies bear the
+    same copyright and proprietary notices as the original;
+
+(c) generate, compile and distribute output code, designs, configurations,
+    and binary artifacts produced by the Licensed Software ("Output"),
+    provided that any redistribution of Output (i) does not include any
+    portion of the Licensed Software itself, (ii) is at Your sole risk and
+    expense, and (iii) does not represent, state or imply any endorsement
+    by Licensor.
+
+
+3. RESTRICTIONS
+
+You shall not, and shall not permit any third party to:
+
+(a) copy, modify, adapt, translate, or create derivative works of the
+    Licensed Software, except as expressly permitted in Section 2;
+
+(b) reverse engineer, decompile, disassemble, decrypt, extract, or
+    otherwise attempt to derive the source code, algorithms, ideas,
+    structure or organisation of the Licensed Software, except to the
+    extent that such activity is expressly permitted by applicable law
+    notwithstanding this restriction;
+
+(c) sell, rent, lease, lend, sublicense, distribute, transfer, or grant
+    any rights in the Licensed Software, in whole or in part, to any third
+    party;
+
+(d) remove, obscure, alter or destroy any proprietary notices (including
+    copyright and trademark notices) contained in or affixed to the
+    Licensed Software;
+
+(e) use the Licensed Software, in whole or in part, to develop, design,
+    debug, deploy, characterise, support, validate, or otherwise enable
+    any product or system that does not incorporate, control, communicate
+    with, or operate in conjunction with the Hardware;
+
+(f) use the Licensed Software in any application where its failure could
+    reasonably be expected to result in personal injury, death,
+    catastrophic property damage or environmental damage, including but
+    not limited to weapons systems, nuclear facilities, life-support
+    systems, autonomous vehicles, or aviation/avionics control;
+
+(g) circumvent, disable, or otherwise interfere with any technological
+    measures employed in connection with the Licensed Software, including
+    license-checking, anti-tamper, version-checking, or update mechanisms;
+
+(h) use the Licensed Software in violation of any applicable law,
+    regulation, or third-party right.
+
+
+4. OWNERSHIP
+
+4.1 The Licensed Software is licensed, not sold. Licensor and its licensors
+    retain all right, title and interest, including all intellectual
+    property rights, in and to the Licensed Software.
+
+4.2 You acknowledge that the Licensed Software constitutes valuable trade
+    secrets and confidential information of Licensor.
+
+4.3 Output produced by the Licensed Software is owned by You; however, any
+    portion of the Licensed Software (including library code, runtime
+    components, code-generation templates, or auto-included headers) that
+    is incorporated into Output remains owned by Licensor and is licensed
+    to You under the terms of this Agreement.
+
+
+5. THIRD-PARTY SOFTWARE
+
+5.1 The Licensed Software contains, incorporates, or is distributed with
+    Third-Party Software, each of which is licensed under its own terms.
+    Such terms shall prevail, with respect to the corresponding Third-Party
+    Software, over any conflicting term of this Agreement.
+
+5.2 A list of Third-Party Software components and their respective licenses
+    is provided in the NOTICES.txt file inside the installation directory.
+
+5.3 Licensor makes no representation or warranty regarding any Third-Party
+    Software and disclaims all liability arising from Your use of such
+    Third-Party Software.
+
+
+6. NO OTHER LICENSES
+
+No license or right is granted hereunder by Licensor, expressly, by
+implication, by estoppel, or otherwise, other than the licenses expressly
+granted in Section 2.
+
+
+7. CONFIDENTIALITY
+
+You shall (i) maintain Confidential Information in strict confidence,
+(ii) use Confidential Information solely for the purposes permitted by
+this Agreement, and (iii) protect Confidential Information using the
+same degree of care You use to protect Your own confidential information
+of similar importance (and in any event no less than a reasonable degree
+of care).
+
+
+8. NO WARRANTY
+
+THE LICENSED SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITH ALL
+FAULTS AND WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED
+BY APPLICABLE LAW, LICENSOR EXPRESSLY DISCLAIMS ALL WARRANTIES, WHETHER
+EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING BUT NOT LIMITED TO
+ANY IMPLIED WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS
+FOR A PARTICULAR PURPOSE, ACCURACY, QUIET ENJOYMENT, AND NON-INFRINGEMENT
+OF THIRD-PARTY RIGHTS.
+
+
+9. LIMITATION OF LIABILITY
+
+9.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+    LICENSOR OR ITS AFFILIATES BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+    SPECIAL, CONSEQUENTIAL, EXEMPLARY OR PUNITIVE DAMAGES, OR FOR ANY
+    LOSS OF PROFITS, REVENUE, DATA, USE, GOODWILL OR OTHER INTANGIBLE
+    LOSSES.
+
+9.2 LICENSOR'S AGGREGATE LIABILITY ARISING OUT OF OR IN CONNECTION WITH
+    THIS AGREEMENT SHALL NOT EXCEED FIFTY EUROS (EUR 50).
+
+
+10. TERMINATION
+
+10.1 This Agreement is effective until terminated.
+
+10.2 This Agreement, and the licenses granted hereunder, shall terminate
+     automatically and immediately, without notice, if You fail to comply
+     with any term hereof.
+
+10.3 Upon termination, You shall immediately cease all use of the Licensed
+     Software and destroy all copies in Your possession or control.
+
+
+11. EXPORT CONTROL
+
+The Licensed Software may be subject to export-control or sanctions laws
+of France, the European Union, the United States and/or other
+jurisdictions. You shall comply with all such applicable laws.
+
+
+12. GOVERNING LAW AND DISPUTES
+
+12.1 This Agreement shall be governed by and construed in accordance with
+     the laws of France, without regard to its conflict-of-laws principles.
+     The United Nations Convention on Contracts for the International Sale
+     of Goods (CISG) shall not apply.
+
+12.2 Any dispute, controversy or claim arising out of or in connection
+     with this Agreement shall be submitted to the exclusive jurisdiction
+     of the competent courts of Paris, France.
+
+
+13. GENERAL
+
+13.1 Entire Agreement. This Agreement constitutes the entire agreement
+     between You and Licensor concerning the Licensed Software.
+
+13.2 Severability. If any provision of this Agreement is held invalid or
+     unenforceable, the remaining provisions shall remain in full force
+     and effect.
+
+13.3 Assignment. You may not assign or transfer this Agreement or any
+     rights or obligations hereunder without the prior written consent of
+     Licensor.
+
+13.4 Notices. Notices to Licensor shall be sent to:
+        SHANON TECHNOLOGIES SAS
+        France
+        legal@shanon-technologies.com
+
+13.5 Language. The original language of this Agreement is English. In the
+     event of any translation, the English version shall prevail.
+
+
+Copyright (C) Shanon Technologies SAS. All rights reserved.
+"Papaya Studio" and "Papaya" are trademarks of Shanon Technologies SAS.
+All other trademarks are the property of their respective owners.

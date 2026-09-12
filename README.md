@@ -174,11 +174,51 @@ request.
 
 ## Updating the board firmware
 
-Each release folder carries the firmware package for the PAPAYA VL board, a `.pkg`
-file. In PAPAYA Studio, open the **Firmware Updater**, then drag the package onto the
-*Update package (.pkg)* field, or use **Browse** to pick it. Only `.pkg` files are
-accepted. The User Manual walks through the whole procedure in the recipe
-*Update firmware safely*.
+Every release folder carries the firmware package for the PAPAYA VL board, a
+`.pkg` file. It is installed over the same USB cable that carries designs:
+there is no separate programmer and no debug probe.
+
+<img src="docs/firmware/firmware-updater.png" alt="The Firmware Updater in PAPAYA Studio: the package field, and the two cards that compare what is on the board against what is in the package." width="700">
+
+**Before you start.** Stop any running design (the stop button in the Model
+Builder top bar resets the board), close any script that is holding the board,
+and save your work.
+
+1. **Open the Firmware Updater** from the navigation rail in PAPAYA Studio.
+2. **Give it the package.** Drag the `.pkg` onto the drop field, or click
+   **Browse...** and pick it. The last eight packages you used are listed under
+   **Recent**. Only `.pkg` files are accepted.
+3. **Read the two identity cards.** One is the connected board, the other is the
+   package: part number, unique id and version on each. The status chip says
+   whether the board is **Not connected**, **App connected** or
+   **Bootloader connected**.
+4. **Let the pre-flight check run.** Studio refuses to flash a package meant for
+   a different part or a different board, and asks before installing a version
+   older than the one it last installed, or the same version again.
+5. **Start the update.** The board is reset into update mode automatically where
+   it can be. If it cannot be, Studio asks you to press and release the board's
+   RESET button, and keeps retrying for up to 60 seconds.
+6. **Watch the four phases**: uploading (1/2), uploading (2/2), finalising
+   installation, restarting device. **Do not unplug the board during the first
+   three.** If you have to stop, use the abort button, which stops at the next
+   safe point rather than mid-write.
+7. **Check the result.** The log ends with a line saying the update is complete
+   and the device is running the new firmware, and Studio verifies the board
+   after the reboot. If it cannot re-establish the session by itself, click
+   **Connect**.
+
+If anything goes wrong, **Diagnostics...** saves a bundle (log, manifest and
+identity) you can attach to a support message.
+
+**Package versions.** A v1 package is unencrypted; a v2 package is encrypted and
+is decrypted only on the device. Studio says which one a given board needs if
+you offer it the wrong kind.
+
+## What is published here
+
+| Release | Folder | Installer |
+|---|---|---|
+| 1.2.0 | [`releases/1.2.0/`](releases/1.2.0/) | attached to the GitHub release |
 
 ## Licence
 
